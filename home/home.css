@@ -1,0 +1,38 @@
+nav{
+    width: 100%;/*Largura 100% da tela*/
+    background-color: black;/*Cor de fundo preto*/
+    height: 50px;/*Altura de 50 px*/
+}
+
+ul{
+    padding: 20px;/*Aumentar a ul para afastar o menu do topo*/
+}
+
+li{
+    display: inline; /*Deixar o menu em linha*/
+    margin: 30px;/*Dar um espaçamento de 30 px entre os li*/
+}
+
+a{
+    text-decoration: none;/*Para tirar o sublinhado dos links*/
+    color: white;/*Cor da letra branca*/
+}
+
+a:hover{/*Quando o mouse passar emcima do "a"*/
+    border-bottom: rgb(255, 255, 255) 2px solid; /* Borada da cor branca, 2px de expessura e sólida*/
+    color: #fff;/*cor da letra branca*/
+}
+
+#menu-hamburguer{
+    width: 20px; /*Largura do menu*/
+    }
+
+@media screen and (max-width:1023px){ /*Quando a largura da tela chegar em 1023px*/
+    #menu-hamburguer{
+        display: inline; /*Menu hamburguer irá ficar visivel*/
+    }
+
+    .menu-normal{
+        display: none; /*Menu normal irá ficar invisivel*/
+    }
+}

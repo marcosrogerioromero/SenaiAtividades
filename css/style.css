@@ -1,0 +1,96 @@
+*{
+    margin: 0;/*Tira os espaços que vem como padrão no navegador*/
+}
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font: normal 20pt Arial;
+}
+h1 {
+    color: rgb(0, 0, 0)
+}
+nav{
+    width: 100%;/*Largura 100% da tela*/
+    background-color: rgb(104, 100, 100);/*Cor de fundo preto*/
+    height: 50px;/*Altura de 50 px*/
+}
+
+ul{
+    padding: 20px;/*Aumentar a ul para afastar o menu do topo*/
+}
+
+li{
+    display: inline; /*Deixar o menu em linha*/
+    margin: 30px;/*Dar um espaçamento de 30 px entre os li*/
+}
+
+a{
+    text-decoration: none;/*Para tirar o sublinhado dos links*/
+    color: rgb(255, 255, 255);/*Cor da letra branca*/
+}
+
+a:hover{/*Quando o mouse passar emcima do "a"*/
+    border-bottom: rgb(255, 255, 255) 2px solid; /* Borada da cor branca, 2px de expessura e sólida*/
+    color: rgb(255, 255, 255);/*cor da letra branca*/
+}
+
+#menu-hamburguer{
+    width: 20px; /*Largura do menu*/
+    }
+
+@media screen and (max-width:1023px){ /*Quando a largura da tela chegar em 1023px*/
+    #menu-hamburguer{
+        display: inline; /*Menu hamburguer irá ficar visivel*/
+    }
+
+    .menu-normal{
+        display: none; /*Menu normal irá ficar invisivel*/
+    }
+}
+
+#banner{ /*id da section do banner*/
+    margin-top: 50px;/*Margem para separar osconteudos*/
+    width: 100%;/*Largura de 100%*/
+    text-align: center;/*Alinhar ao centro os elementos dentro da section #banner*/
+}
+
+#banner img{/*Imagem da section com id banner*/
+    width: 60%;/*Largura 100%*/
+}
+
+.sec{
+    width: 100%;/*Largura 100%*/
+    text-align: center;/*Alinhar ao centro os elementos dentro do elemento*/
+}
+
+.titulo{
+    margin: 40px;/*Distanciar 40px para melhorar leitura*/
+}
+
+.sub{
+    margin: 30px;/*Distanciar 30px para melhorar leitura*/
+}
+
+#carouselExampleIndicators{/*Carrossel*/
+    width: 60%;/*Largura do carrossel*/
+    margin: auto;/*margem automatica para ficar centralizado*/
+}
+
+#carouselExampleIndicators img{/*Imagens dentro do carrossel*/
+    height: 500px;/*Altura das imagens do carrossel*/
+    background-color: rgb(255, 254, 254);/*Cor de fundo das imagens*/
+}
+
+footer{
+    background-color: rgb(43, 42, 42);/*cor de fundo do footer preta*/
+    margin-top: 80px;/*Margem do topo*/
+    height: 200px;/*Altura do footer*/
+}
+
+.elementos-footer{
+    display: inline;/*Deixar em linha os elementos*/
+}
+
+footer img{
+    width: 20px;/*largura da imagem*/
+}
